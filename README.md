@@ -1,4 +1,5 @@
 # NSWGovWebsiteAutomation
+This is Automation test suite for NSW News Website
 
 # Prequisites and Installations
 
