@@ -19,10 +19,8 @@ public class SelectTopics extends Driver {
     @When("^Select Topic and sub topics")
     public void selectTopicAndSubTopics(){
         newspage.clickSelectTopics();
-        String topic1 = newspage.properties.getProperty("TOPIC1");
-        String topic2 = newspage.properties.getProperty("TOPIC2");
-        newspage.selectAnyTopics(topic1);
-        newspage.selectAnyTopics(topic2);
+        newspage.selectAnyTopics(newspage.properties.getProperty("TOPIC1"));
+        newspage.selectAnyTopics(newspage.properties.getProperty("TOPIC2"));
         newspage.clickApply();
     }
 
