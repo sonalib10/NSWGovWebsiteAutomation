@@ -13,7 +13,7 @@ public class SelectTopics extends Driver {
 
     @Given("^User navigate to NSW page")
     public void naviagteToWebsite(){
-        initializeBrowser("Chrome");
+        initializeBrowser("Firefox");
         newspage.navigateToURL();
 }
     @When("^Select Topic and sub topics")
